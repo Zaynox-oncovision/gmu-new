@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cancer Detection AI</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Teachable Machine & TensorFlow -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image"></script>
+</head>
+<body>
+  <div class="hero">
+    <img src="cancer.jpg" alt="Cancer Awareness" class="hero-img" />
+    <h1>🧬 Cancer Detection AI</h1>
+    <p>Detect early. Save lives. Powered by Teachable Machine.</p>
+
+    <button id="start-button">Start Camera</button>
+
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
+
+    <div class="bar-container">
+      <div id="bar"></div>
+    </div>
+
+    <div id="status"></div>
+  </div>
+
+  <footer>
+    Made with ❤️ by [Your Name]
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
